@@ -26,7 +26,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
     private ImageLoader imageLoader;
     private LayoutInflater layoutInflater;
 
-    public RecyclerAdapter(List<ListItems> list, Context context) {
+    public RecyclerAdapter(Context context, List<ListItems> list) {
         this.list = list;
         this.context = context;
         layoutInflater = LayoutInflater.from(context);

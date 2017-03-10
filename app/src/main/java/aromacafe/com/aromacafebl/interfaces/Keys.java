@@ -6,6 +6,7 @@ package aromacafe.com.aromacafebl.interfaces;
 
 public interface Keys {
 
+    public static final String KEY_ID = "id";
     public static final String TAG = "tag";
     public static final String KEY_POSTS = "posts";
     public static final String KEY_POST = "post";
